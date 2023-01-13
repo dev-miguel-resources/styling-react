@@ -1,8 +1,13 @@
-import React from "react";
-import "./global.css";
+import Car from "./components/Car/Car";
+import Greetings from "./components/Greetings/Greetings";
 
 const App = () => {
-  return <div>Hello am App!</div>;
+  return (
+    <div>
+      <Car />
+      <Greetings />
+    </div>
+  )
 };
 
 export default App;
